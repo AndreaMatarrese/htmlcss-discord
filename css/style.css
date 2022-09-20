@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
    
 }
-
+/**************/
 /* navbar e menu */
 
 header{
@@ -60,17 +60,48 @@ header{
     margin: 1%;
 }
 
-/* sezione1 */
+/* parti comuni sezioni */
+
+.pt{
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+.h2sez{
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+}
+
+.imgpari{
+    margin-top: 0%;
+    max-width:  85%;
+    align-self: flex-start;
+}
+
+
+.testopari{
+    width: 50%;
+    height: 50%;
+    padding-right: 10%;
+
+}
+.dimgpari {
+        
+    margin-top: 0%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+/**************/
+/* sezione1 header */
 
 .sezione1{
 
     padding: 5%;
 }
-
-    .p1{
-        margin: 2rem;
-        line-height: 1.7em;
-    }
     .sezione1{
         max-width: 900px;
         margin: auto;
@@ -107,7 +138,7 @@ header{
         width: 250px;
         height: 40px;
     }
-
+/**************/
 /* Sezione2 */
 
 .dsez2{
@@ -115,37 +146,55 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 6%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    ;
 }
-
-.testo1{
-    width: 50%;
-    height: 50%;
-    padding-right: 10%;
    
-}
+/**************/
+/* Sezione 3 */
 
-.dimg {
+.dsez3{
     
-    margin-top: 0%;
-    width: 50%;
-    height: 50%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    padding-top: 10%;
+    padding-bottom: 10%;
+   
+}   
+    
+/**************/
+/* sezione 4 */
+.dsez4{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    ;
+}   
+
+/**************/
+/* Sezione 5 */
+
+.sezione5{
+    margin: auto;
     
 }
-.img1{
-    margin-top: 0%;
-    max-width:  85%;
-    align-self: flex-start;
+.dsez5{
+
+    background-color: #ededed;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
 }
 
-.h2sez2{
-    font-size: 2.5rem;
-    margin-bottom: 5%;
+.dimg5{
+    
+    width:  70%;
+    margin: auto;
 }
-.p2{
-    font-size: 16px;
-    line-height: 1.7em;
-}
+/**************/
