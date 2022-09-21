@@ -197,4 +197,90 @@ header{
     width:  70%;
     margin: auto;
 }
+
+/*  sezione 6 */
+
+.dsez6{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+}
+
+.btnv{
+    background-color:#7288da;
+    border-radius: 500px;
+    color: #ffffff;
+    width: 350px;
+    height: 200px;
+    margin-right: 1%;
+    
+}
+
+.btn{
+    background-color:#7288da;
+    border-radius: 500px;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    margin-right: 1%;
+    
+}
+
 /**************/
+/* footer */
+
+footer{
+    background-color: #23272a;
+    padding: 5%;
+}
+
+
+
+.fcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+
+.h3footer{
+    font-size: 2rem;
+    color: #7288da;
+}
+.social{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+.ita{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #ededed;
+}
+
+.imgi{
+    width: 20px;
+}
+
+ul{
+    color: #7288da;
+    line-height: 2em;
+}
+
+li{
+    color: #ffffff;
+    list-style: none;
+}
+
+.copy{
+    border-top:1px #7288da solid;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 1%;
+    
+}
